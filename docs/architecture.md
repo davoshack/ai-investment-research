@@ -1,8 +1,8 @@
-# Document Copilot Architecture
+# Investment Research Architecture
 
 ## Purpose
 
-Document Copilot is an internal research assistant for analysts who need grounded answers from a curated SEC filing corpus. The architecture must optimize for trust: every answer is generated from retrieved source passages, every factual claim is citable, and the system fails clearly when the corpus does not support an answer.
+Investment Research is an internal research assistant for analysts who need grounded answers from a curated SEC filing corpus. The architecture must optimize for trust: every answer is generated from retrieved source passages, every factual claim is citable, and the system fails clearly when the corpus does not support an answer.
 
 This document describes the target architecture for the chat experience, LLM orchestration, and the communication layer between the React SPA, Supabase, and FastAPI backend.
 
@@ -198,7 +198,7 @@ Retrieval and grounding remain independent from PydanticAI. This keeps ingestion
 
 ## Retrieval Strategy
 
-Document Copilot uses hybrid retrieval:
+Investment Research uses hybrid retrieval:
 
 1. Embed the user's query with the configured OpenAI embedding model.
 2. Run a semantic search over `document_chunks.embedding` with `pgvector`.

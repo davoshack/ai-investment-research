@@ -34,7 +34,7 @@ Hiring more analysts doesn't fix it — the intake bottleneck scales linearly wi
 
 ## What they want
 
-An internal chatbot — call it **Document Copilot** — where any Driftwood analyst can:
+An internal chatbot — call it **Investment Research** — where any Driftwood analyst can:
 
 - Ask questions in plain English about any filing in Driftwood's curated corpus
 - Get a sourced answer that cites the specific filing and the specific page

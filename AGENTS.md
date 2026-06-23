@@ -18,7 +18,7 @@ Stack is locked unless explicitly changed. Don't propose alternatives without a 
 ## Repo layout
 
 ```text
-document-copilot/
+investment-research/
 ├── AGENTS.md           # this file
 ├── README.md
 ├── data/               # local corpus + download script (payloads gitignored)

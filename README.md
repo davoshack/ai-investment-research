@@ -1,10 +1,10 @@
-# Document Copilot
+# Investment Research
 
 An internal AI chatbot that lets analysts query a corpus of documents in plain English and get sourced, citable answers.
 
 ## The client
 
-**Driftwood Capital** — fictional independent investment research firm. Their analysts spend half their week reading 10-Ks and 10-Qs before they can produce any original analysis. Document Copilot eats that intake work so they can skip straight to insight.
+**Driftwood Capital** — fictional independent investment research firm. Their analysts spend half their week reading 10-Ks and 10-Qs before they can produce any original analysis. Investment Research eats that intake work so they can skip straight to insight.
 
 Full brief: [docs/client-brief.md](docs/client-brief.md)
 
@@ -24,7 +24,7 @@ Full brief: [docs/client-brief.md](docs/client-brief.md)
 ## Repo layout
 
 ```text
-document-copilot/
+investment-research/
 ├── AGENTS.md           # agent instructions (read first)
 ├── README.md           # this file
 ├── data/               # local corpus + download script (payloads gitignored)
