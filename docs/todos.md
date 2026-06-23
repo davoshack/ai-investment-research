@@ -21,9 +21,9 @@ Frontend and backend scaffolds can be started in parallel early, but **don't inv
 
 ## Phase 0 — Prerequisites
 
-- [ ] Install Python 3.12+, [uv](https://docs.astral.sh/uv/), Node 20+, pnpm (`corepack enable`)
-- [ ] Create an [OpenAI API key](https://platform.openai.com/api-keys) (needed once embeddings/LLM are wired)
-- [ ] Skim [client brief](client-brief.md) and [architecture](architecture.md)
+- [x] Install Python 3.12+, [uv](https://docs.astral.sh/uv/), Node 20+, pnpm (`corepack enable`)
+- [x] Create an [OpenAI API key](https://platform.openai.com/api-keys) (needed once embeddings/LLM are wired)
+- [x] Skim [client brief](client-brief.md) and [architecture](architecture.md)
 
 ---
 
@@ -31,11 +31,11 @@ Frontend and backend scaffolds can be started in parallel early, but **don't inv
 
 Guide: [supabase-setup.md](guides/supabase-setup.md)
 
-- [ ] Create a Supabase project (save DB password)
-- [ ] Collect Project URL, anon key, service_role key, project ref, **direct** DB connection string
-- [ ] Auth: email provider on; disable "Confirm email" for local dev if desired
-- [ ] Copy `backend/.env.example` → `backend/.env` and fill in Supabase + `DATABASE_URL`
-- [ ] Copy `frontend/.env.example` → `frontend/.env` and fill in Supabase + API URL
+- [x] Create a Supabase project (save DB password)
+- [x] Collect Project URL, anon key, service_role key, project ref, **direct** DB connection string
+- [x] Auth: email provider on; disable "Confirm email" for local dev if desired
+- [x] Copy `backend/.env.example` → `backend/.env` and fill in Supabase + `DATABASE_URL`
+- [x] Copy `frontend/.env.example` → `frontend/.env` and fill in Supabase + API URL
 
 ---
 
@@ -45,11 +45,11 @@ Guide: [backend-setup.md](guides/backend-setup.md)
 
 **Already done:** `pyproject.toml`, `uv.lock`, Alembic skeleton (`alembic/`, `alembic.ini`)
 
-- [ ] `cd backend && uv sync`
-- [ ] Create `app/` package: `main.py`, `config.py` (fail fast on missing env)
-- [ ] Health route: `GET /health` returns OK
-- [ ] CORS from `ALLOWED_ORIGINS`
-- [ ] `uv run uvicorn app.main:app --reload` starts cleanly
+- [x] `cd backend && uv sync`
+- [x] Create `app/` package: `main.py`, `config.py` (fail fast on missing env)
+- [x] Health route: `GET /health` returns OK
+- [x] CORS from `ALLOWED_ORIGINS`
+- [x] `uv run uvicorn app.main:app --reload` starts cleanly
 
 ---
 
