@@ -1,6 +1,6 @@
 # Backend — agent notes
 
-This is the FastAPI service for Document Copilot. Read [../AGENTS.md](../AGENTS.md) first — universal building rules live there. This file adds backend-specific conventions.
+This is the FastAPI service for Investment Research. Read [../AGENTS.md](../AGENTS.md) first — universal building rules live there. This file adds backend-specific conventions.
 
 ## Stack
 

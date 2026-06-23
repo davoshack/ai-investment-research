@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+httpx
+structlog
+openai
+supabase
+pydantic-ai
+sqlalchemy
+alembic
+psycopg[binary]
+pgvector
